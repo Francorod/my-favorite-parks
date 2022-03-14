@@ -7,18 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9DA008A6279AF06A00CB386D /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA008A5279AF06A00CB386D /* CircleImage.swift */; };
+		9DA008A8279AF13E00CB386D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA008A7279AF13E00CB386D /* MapView.swift */; };
+		9DA008AA279AF27F00CB386D /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 9DA008A9279AF27F00CB386D /* landmarkData.json */; };
+		9DA008AC279AF2AB00CB386D /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA008AB279AF2AB00CB386D /* Landmark.swift */; };
+		9DA008AE279AF35500CB386D /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA008AD279AF35500CB386D /* ModelData.swift */; };
+		9DA008B3279AF46200CB386D /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA008B2279AF46200CB386D /* LandmarkRow.swift */; };
+		9DA008B5279AF52300CB386D /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA008B4279AF52300CB386D /* LandmarkList.swift */; };
+		9DA008B7279AF6F200CB386D /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA008B6279AF6F200CB386D /* LandmarkDetail.swift */; };
+		9DA008B9279B00CF00CB386D /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA008B8279B00CF00CB386D /* FavoriteButton.swift */; };
 		9DACE6792799AF930089832D /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DACE6782799AF930089832D /* LandmarksApp.swift */; };
 		9DACE67B2799AF930089832D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DACE67A2799AF930089832D /* ContentView.swift */; };
 		9DACE67D2799AF940089832D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DACE67C2799AF940089832D /* Assets.xcassets */; };
 		9DACE6802799AF940089832D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DACE67F2799AF940089832D /* Preview Assets.xcassets */; };
+		9DC17DE627BAEEDF000AAA14 /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = 9DC17DE527BAEEDF000AAA14 /* GoogleService-Info (1).plist */; };
+		9DC17DE927BAF067000AAA14 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 9DC17DE827BAF067000AAA14 /* FirebaseAnalytics */; };
+		9DC17DEB27BAF067000AAA14 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 9DC17DEA27BAF067000AAA14 /* FirebaseAuth */; };
+		9DC17DED27BAF067000AAA14 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 9DC17DEC27BAF067000AAA14 /* FirebaseDatabase */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9DA008A5279AF06A00CB386D /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		9DA008A7279AF13E00CB386D /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		9DA008A9279AF27F00CB386D /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		9DA008AB279AF2AB00CB386D /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		9DA008AD279AF35500CB386D /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		9DA008B2279AF46200CB386D /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
+		9DA008B4279AF52300CB386D /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		9DA008B6279AF6F200CB386D /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		9DA008B8279B00CF00CB386D /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		9DACE6752799AF930089832D /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DACE6782799AF930089832D /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		9DACE67A2799AF930089832D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9DACE67C2799AF940089832D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DACE67F2799AF940089832D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9DC17DE527BAEEDF000AAA14 /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (1).plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,15 +49,69 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DC17DED27BAF067000AAA14 /* FirebaseDatabase in Frameworks */,
+				9DC17DE927BAF067000AAA14 /* FirebaseAnalytics in Frameworks */,
+				9DC17DEB27BAF067000AAA14 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9DA008AF279AF38F00CB386D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9DC17DE527BAEEDF000AAA14 /* GoogleService-Info (1).plist */,
+				9DACE67A2799AF930089832D /* ContentView.swift */,
+				9DA008BA279B01CA00CB386D /* Helpers */,
+				9DA008BB279B01E000CB386D /* Landmarks */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9DA008B0279AF3BB00CB386D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9DA008A9279AF27F00CB386D /* landmarkData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9DA008B1279AF3DB00CB386D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9DA008AB279AF2AB00CB386D /* Landmark.swift */,
+				9DA008AD279AF35500CB386D /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9DA008BA279B01CA00CB386D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9DA008A5279AF06A00CB386D /* CircleImage.swift */,
+				9DA008A7279AF13E00CB386D /* MapView.swift */,
+				9DA008B8279B00CF00CB386D /* FavoriteButton.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		9DA008BB279B01E000CB386D /* Landmarks */ = {
+			isa = PBXGroup;
+			children = (
+				9DA008B2279AF46200CB386D /* LandmarkRow.swift */,
+				9DA008B4279AF52300CB386D /* LandmarkList.swift */,
+				9DA008B6279AF6F200CB386D /* LandmarkDetail.swift */,
+			);
+			path = Landmarks;
+			sourceTree = "<group>";
+		};
 		9DACE66C2799AF930089832D = {
 			isa = PBXGroup;
 			children = (
+				9DA008AF279AF38F00CB386D /* Views */,
+				9DA008B1279AF3DB00CB386D /* Model */,
+				9DA008B0279AF3BB00CB386D /* Resources */,
 				9DACE6772799AF930089832D /* Landmarks */,
 				9DACE6762799AF930089832D /* Products */,
 			);
@@ -52,7 +129,6 @@
 			isa = PBXGroup;
 			children = (
 				9DACE6782799AF930089832D /* LandmarksApp.swift */,
-				9DACE67A2799AF930089832D /* ContentView.swift */,
 				9DACE67C2799AF940089832D /* Assets.xcassets */,
 				9DACE67E2799AF940089832D /* Preview Content */,
 			);
@@ -83,6 +159,11 @@
 			dependencies = (
 			);
 			name = Landmarks;
+			packageProductDependencies = (
+				9DC17DE827BAF067000AAA14 /* FirebaseAnalytics */,
+				9DC17DEA27BAF067000AAA14 /* FirebaseAuth */,
+				9DC17DEC27BAF067000AAA14 /* FirebaseDatabase */,
+			);
 			productName = Landmarks;
 			productReference = 9DACE6752799AF930089832D /* Landmarks.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +192,9 @@
 				Base,
 			);
 			mainGroup = 9DACE66C2799AF930089832D;
+			packageReferences = (
+				9DC17DE727BAF067000AAA14 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 9DACE6762799AF930089832D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +211,8 @@
 			files = (
 				9DACE6802799AF940089832D /* Preview Assets.xcassets in Resources */,
 				9DACE67D2799AF940089832D /* Assets.xcassets in Resources */,
+				9DA008AA279AF27F00CB386D /* landmarkData.json in Resources */,
+				9DC17DE627BAEEDF000AAA14 /* GoogleService-Info (1).plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +224,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DACE67B2799AF930089832D /* ContentView.swift in Sources */,
+				9DA008A8279AF13E00CB386D /* MapView.swift in Sources */,
 				9DACE6792799AF930089832D /* LandmarksApp.swift in Sources */,
+				9DA008B9279B00CF00CB386D /* FavoriteButton.swift in Sources */,
+				9DA008B5279AF52300CB386D /* LandmarkList.swift in Sources */,
+				9DA008B7279AF6F200CB386D /* LandmarkDetail.swift in Sources */,
+				9DA008A6279AF06A00CB386D /* CircleImage.swift in Sources */,
+				9DA008AC279AF2AB00CB386D /* Landmark.swift in Sources */,
+				9DA008B3279AF46200CB386D /* LandmarkRow.swift in Sources */,
+				9DA008AE279AF35500CB386D /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +365,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Landmarks/Preview Content\"";
 				DEVELOPMENT_TEAM = 95X8D63F3T;
 				ENABLE_PREVIEWS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -300,6 +395,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Landmarks/Preview Content\"";
 				DEVELOPMENT_TEAM = 95X8D63F3T;
 				ENABLE_PREVIEWS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -341,6 +437,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9DC17DE727BAF067000AAA14 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9DC17DE827BAF067000AAA14 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9DC17DE727BAF067000AAA14 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		9DC17DEA27BAF067000AAA14 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9DC17DE727BAF067000AAA14 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		9DC17DEC27BAF067000AAA14 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9DC17DE727BAF067000AAA14 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9DACE66D2799AF930089832D /* Project object */;
 }
